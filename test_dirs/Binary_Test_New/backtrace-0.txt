@@ -1,0 +1,6 @@
+[0] [bt]: (2) /workspaces/fargocpt/bin/fargocpt_exe : PersonalExit(int)+0x55 [0x5f3361b757c5]
+[0] [bt]: (3) /workspaces/fargocpt/bin/fargocpt_exe : parameters::read(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, t_data&)+0x3f48 [0x5f3361b5de58]
+[0] [bt]: (4) /workspaces/fargocpt/bin/fargocpt_exe : ReadVariables(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, t_data&, int, char**)+0x7e [0x5f3361b4f5fe]
+[0] [bt]: (5) /workspaces/fargocpt/bin/fargocpt_exe : main+0x7c [0x5f3361aecdac]
+[0] [bt]: (6) /lib/x86_64-linux-gnu/libc.so.6 : __libc_start_main+0xf3 [0x789324af7083]
+[0] [bt]: (7) /workspaces/fargocpt/bin/fargocpt_exe : _start+0x2e [0x5f3361aed71e]

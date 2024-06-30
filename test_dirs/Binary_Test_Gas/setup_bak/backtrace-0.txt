@@ -1,0 +1,7 @@
+[0] [bt]: (2) /workspaces/fargocpt/bin/fargocpt_exe : PersonalExit(int)+0x55 [0x5cb8658a67c5]
+[0] [bt]: (3) /workspaces/fargocpt/bin/fargocpt_exe : +0x183846 [0x5cb8658a6846]
+[0] [bt]: (4) /workspaces/fargocpt/bin/fargocpt_exe : +0x183a97 [0x5cb8658a6a97]
+[0] [bt]: (5) /workspaces/fargocpt/bin/fargocpt_exe : config::Config::exit_on_unknown_key()+0x5d [0x5cb86585b93d]
+[0] [bt]: (6) /workspaces/fargocpt/bin/fargocpt_exe : main+0x2b7 [0x5cb86581dfe7]
+[0] [bt]: (7) /lib/x86_64-linux-gnu/libc.so.6 : __libc_start_main+0xf3 [0x738e31c73083]
+[0] [bt]: (8) /workspaces/fargocpt/bin/fargocpt_exe : _start+0x2e [0x5cb86581e71e]

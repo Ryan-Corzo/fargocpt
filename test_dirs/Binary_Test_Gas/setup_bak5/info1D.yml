@@ -1,0 +1,126 @@
+# 1D output variable descriptions
+# version 0.1
+# 
+# data is stored in 4 columns: radii | azimuthal average quantity | minimum quantity | maximum quantity
+# to load the azimuthal average, read only every forth double value
+# In python, use: s = avg_slice; data[slice(*[int(i) if len(i) > 0 else None for i in s.split(':')])] to get the data
+# 
+# The paths of the files are: snapshots/{Nsnapshot}/{filename}
+
+Sigma:
+  cgs symbols: g cm^-2
+  code_to_cgs_factor: 5331132.4123079786
+  unit: 5331132.4123079786 g cm^-2
+  Nrad: 389
+  on_radial_interface: false
+  filename: Sigma1D.dat
+  radii_slice: ::4
+  avg_slice: 1::4
+  min_slice: 2::4
+  max_slice: 3::4
+  bigendian: 0
+
+vrad:
+  cgs symbols: cm s^-1
+  code_to_cgs_factor: 2307147.1917162654
+  unit: 2307147.1917162654 cm s^-1
+  Nrad: 390
+  on_radial_interface: true
+  filename: vrad1D.dat
+  radii_slice: ::4
+  avg_slice: 1::4
+  min_slice: 2::4
+  max_slice: 3::4
+  bigendian: 0
+
+vazi:
+  cgs symbols: cm s^-1
+  code_to_cgs_factor: 2307147.1917162654
+  unit: 2307147.1917162654 cm s^-1
+  Nrad: 389
+  on_radial_interface: false
+  filename: vazi1D.dat
+  radii_slice: ::4
+  avg_slice: 1::4
+  min_slice: 2::4
+  max_slice: 3::4
+  bigendian: 0
+
+energy:
+  cgs symbols: erg cm^-2
+  code_to_cgs_factor: 2.8377234864789533e+19
+  unit: 2.8377234864789533e+19 erg cm^-2
+  Nrad: 389
+  on_radial_interface: false
+  filename: energy1D.dat
+  radii_slice: ::4
+  avg_slice: 1::4
+  min_slice: 2::4
+  max_slice: 3::4
+  bigendian: 0
+
+Qplus:
+  cgs symbols: erg cm^-2 s^-1
+  code_to_cgs_factor: 4376429786107.3813
+  unit: 4376429786107.3813 erg cm^-2 s^-1
+  Nrad: 389
+  on_radial_interface: false
+  filename: Qplus1D.dat
+  radii_slice: ::4
+  avg_slice: 1::4
+  min_slice: 2::4
+  max_slice: 3::4
+  bigendian: 0
+
+Qminus:
+  cgs symbols: erg cm^-2 s^-1
+  code_to_cgs_factor: 4376429786107.3813
+  unit: 4376429786107.3813 erg cm^-2 s^-1
+  Nrad: 389
+  on_radial_interface: false
+  filename: Qminus1D.dat
+  radii_slice: ::4
+  avg_slice: 1::4
+  min_slice: 2::4
+  max_slice: 3::4
+  bigendian: 0
+
+viscosity:
+  cgs symbols: cm^2 s^-1
+  code_to_cgs_factor: 3.4514430727223804e+19
+  unit: 3.4514430727223804e+19 cm^2 s^-1
+  Nrad: 389
+  on_radial_interface: false
+  filename: viscosity1D.dat
+  radii_slice: ::4
+  avg_slice: 1::4
+  min_slice: 2::4
+  max_slice: 3::4
+  bigendian: 0
+
+aspectratio:
+  cgs symbols: 1
+  code_to_cgs_factor: 1
+  unit: 1
+  Nrad: 389
+  on_radial_interface: false
+  filename: aspectratio1D.dat
+  radii_slice: ::4
+  avg_slice: 1::4
+  min_slice: 2::4
+  max_slice: 3::4
+  bigendian: 0
+
+MassFlow:
+  cgs symbols: g s^-1
+  code_to_cgs_factor: 1.8400100034226123e+26
+  unit: 1.8400100034226123e+26 g s^-1
+  Nrad: 390
+  on_radial_interface: true
+  filename: MassFlow1D.dat
+  radii_slice: ::4
+  avg_slice: 1::4
+  min_slice: 2::4
+  max_slice: 3::4
+  bigendian: 0
+

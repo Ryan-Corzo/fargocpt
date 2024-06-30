@@ -1,0 +1,94 @@
+[0] MPI rank #  0 runs as process 14655
+[0] MPI rank #  0 OpenMP thread #  1 of  4 on codespaces-f4c61d
+[0] MPI rank #  0 OpenMP thread #  2 of  4 on codespaces-f4c61d
+[0] MPI rank #  0 OpenMP thread #  0 of  4 on codespaces-f4c61d
+[0] fargo: This file was compiled on May 15 2024, 21:56:12.
+[0] fargo: Last git commit: e9b10d840e009719d3266c72c13697b63ce658e2
+[0] fargo: Files changed since git commit: 
+[0] fargo: This version of FARGO used _GNU_SOURCE
+[0] fargo: This version of FARGO used NDEBUG. So no assertion checks!
+[0] Using parameter file setup.yml
+[0] Physical units implicitly applied!
+[0] L0 = 20.000000 au, M0 = 1.800000 solMass
+[0] Computing disk quantities within 3.50000e-01 L0 from coordinate center
+[0] BC: Inner composite = viscous
+[0] BC: Outer composite = centerofmass
+[0] BC: Sigma inner = zerogradient
+[0] BC: Sigma outer = none
+[0] BC: Energy inner = zerogradient
+[0] BC: Energy outer = none
+[0] BC: Vrad inner = viscous
+[0] BC: Vrad outer = none
+[0] BC: Vaz inner = keplerian
+[0] BC: Vaz outer = none
+[0] DampingTimeFactor: 1.00000e-01 Outer damping time is computed at radius of 6.00000e+01
+[0] Damping VRadial is disabled at inner boundary.
+[0] Damping VRadial is disabled at outer boundary.
+[0] Damping VAzimuthal is disabled at inner boundary.
+[0] Damping VAzimuthal is disabled at outer boundary.
+[0] Damping SurfaceDensity is disabled at inner boundary.
+[0] Damping SurfaceDensity is disabled at outer boundary.
+[0] Damping Energy is disabled at inner boundary.
+[0] Damping Energy is disabled at outer boundary.
+[0] Radiative diffusion is disabled. Using fixed omega = 1.500000 with a maximum 50000 interations.
+[0] Indirect Term computed as effective Hydro center acceleratrion with shifting the Nbody system to the center.
+[0] Body force on gas computed via potential.
+[0] setup/ is not empty, backing up as setup_bak2
+[0] Using FARGO algorithm for azimuthal advection.
+[0] Using leapfrog (gas: kick drift kick) (nbody: drift kick drift) scheme for source terms.
+[0] Cps is set, overwriting Nrad and Naz!
+[0] Grid resolution set using cps = 2.000000
+[0] The grid has (Nrad, Naz) = (459, 328) cells with (2.001053, 1.998162) cps.
+[0] Computing scale height with respect to nbody system.
+[0] Using ideal equation of state. AdiabaticIndex = 1.400.
+[0] Using star dist alpha, scaling from 1.000e-03 to 1.000e-02
+[0] Defaulting to VanLeer flux limiter
+[0] Using pseudo implicit viscosity to limit the viscosity update step
+[0] Output information:
+[0]    Output directory: setup/
+[0]     Number of files: 900
+[0]   Total output size: 0.00 GB
+[0]     Space Available: 8.48 GB
+[0] Initializing 4 RNGs per MPI process.
+[0] Warning : no `radii.dat' file found. Using default.
+[0] The first 1 planets are used to calculate the hydro frame center.
+[0] The mass of the planets used as hydro frame center is 7.777864e-01.
+[0] 2 planet(s) initialized.
+[0] Planet overview:
+[0] 
+[0]  #   | name                    | mass [m0]  | x [l0]     | y [l0]     | vx         | vy         |
+[0] -----+-------------------------+------------+------------+------------+------------+------------+
+[0]    0 | primary                 |  0.7777864 |          0 |         -0 |          0 |          0 |
+[0]    1 | secondary               |  0.2222136 |        0.6 |          0 |         -0 |   1.527525 |
+[0] 
+[0]  #   | e          | a          | T [t0]     | T [a]      | accreting  | Accretion Type |
+[0] -----+------------+------------+------------+------------+------------+----------------+
+[0]    0 |        0.4 |          1 |   6.283185 |    66.6683 |          0 |   No Accretion |
+[0]    1 |        0.4 |          1 |   6.283185 |    66.6683 |         -1 |   No Accretion |
+[0] 
+[0]  #   | Temp [K]   | R [l0]     | irradiates | rampuptime |
+[0] -----+------------+------------+------------+------------+
+[0]    0 |       6670 |  0.00035646 |        yes |          0 |
+[0]    1 |       3470 |  9.7892e-05 |        yes |          0 |
+[0] 
+[0] Using Tscharnuter-Winkler (1979) artificial viscosity with C = 1.410000.
+[0] Artificial viscosity is used for dissipation.
+[0] Surface density factor: 2.50663
+[0] Tau factor: 0.5
+[0] Tau min: 0
+[0] Kappa factor: 1
+[0] Minimum temperature: 3.12402e-04 K = 3.00000e+00
+[0] Maximum temperature: 3.12402e+00 K = 3.00000e+04
+[0] Heating from viscous dissipation is enabled. Using a total factor of 1.
+[0] Cooling (beta) is disabled and reference temperature is zero. Using beta = 10.
+[0] Cooling (radiative) is enabled. Using a total factor of 1.
+[0] S-curve cooling is disabled. 
+[0] CFL parameter: 0.45	heating/cooling (dT/T) limited to 1000% per hydro step
+[0] Opacity uses tables from Lin & Papaloizou, 1985
+[0] Particles are enabled.
+[0] Using 10000 particles with a radius of 3.34229e-13 and a density of 1.98299e+10.
+[0] Distributing particles with a r^1 profile from 0.0100251 to 60 with a eccentricity from 0.0 to 0.
+[0] Particles are considered escaped from the system when they reach a distance of 0.0100251 or 60.
+[0] Particles gas drag is enabled.
+[0] Particles disk gravity is disabled.
+[0] Particles use the exponential midpoint integrator

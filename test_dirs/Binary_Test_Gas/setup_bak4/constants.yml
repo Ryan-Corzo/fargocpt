@@ -1,0 +1,63 @@
+# log output of physical constants file
+# version 0.1
+
+gravitational constant:
+  symbol: G
+  code value: 0.99999999999999989
+  cgs value: 6.6742999999999978e-08
+  cgs unit symbol: cm^3 g^-1 s^-2
+
+Boltzmann constant:
+  symbol: k_B
+  code value: 1.3918063189286236e-57
+  cgs value: 1.380649e-16
+  cgs unit symbol: erg K^-1
+
+molecular mass:
+  symbol: m_u
+  code value: 1.3918063189286236e-57
+  cgs value: 1.6605390666e-24
+  cgs unit symbol: g
+
+Planck constant:
+  symbol: h
+  code value: 1.6091073597934062e-79
+  cgs value: 6.6260701499999999e-27
+  cgs unit symbol: erg s
+
+speed of light:
+  symbol: c
+  code value: 12994.075933967055
+  cgs value: 29979245800
+  cgs unit symbol: cm s^-1
+
+specific gas constant:
+  symbol: R
+  code value: 1
+  cgs value: 83144626.210265398
+  cgs unit symbol: erg K^-1 g^-1
+
+Stefan-Boltzmann constant:
+  symbol: sigma
+  code value: 217.64938849090646
+  cgs value: 5.6703744191844286e-05
+  cgs unit symbol: erg cm^-2 s^-1 K^-4
+
+hydrogen atom mass:
+  symbol: m_H
+  code value: 1.4026972033742401e-57
+  cgs value: 1.673532784796145e-24
+  cgs unit symbol: g
+
+electron mass:
+  symbol: m_e
+  code value: 7.6351698387034602e-61
+  cgs value: 9.1093837015e-28
+  cgs unit symbol: g
+
+electron volt:
+  symbol: eV
+  code value: 2.5228387615977433e-58
+  cgs value: 1.6021766339999999e-12
+  cgs unit symbol: erg
+

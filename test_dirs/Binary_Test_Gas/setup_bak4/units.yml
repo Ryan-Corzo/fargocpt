@@ -1,0 +1,113 @@
+# code units file
+# version 0.2
+
+length:
+  cgs symbol: cm
+  cgs value: 14959787070000
+  unit: 14959787070000 cm
+
+mass:
+  cgs symbol: g
+  cgs value: 1.1930819999999999e+33
+  unit: 1.1930819999999999e+33 g
+
+time:
+  cgs symbol: s
+  cgs value: 6484106.0525798323
+  unit: 6484106.0525798323 s
+
+temperature:
+  cgs symbol: K
+  cgs value: 64020.110581567074
+  unit: 64020.110581567074 K
+
+energy:
+  cgs symbol: erg
+  cgs value: 6.3506897800528594e+45
+  unit: 6.3506897800528594e+45 erg
+
+energy surface density:
+  cgs symbol: erg cm^-2
+  cgs value: 2.8377234864789533e+19
+  unit: 2.8377234864789533e+19 erg cm^-2
+
+density:
+  cgs symbol: g cm^-3
+  cgs value: 3.5636419070421827e-07
+  unit: 3.5636419070421827e-07 g cm^-3
+
+mass surface density:
+  cgs symbol: g cm^-2
+  cgs value: 5331132.4123079786
+  unit: 5331132.4123079786 g cm^-2
+
+opacity:
+  cgs symbol: g^-1 cm^2
+  cgs value: 1.8757740807399594e-07
+  unit: 1.8757740807399594e-07 g^-1 cm^2
+
+energy flux:
+  cgs symbol: erg cm^-2 s^-1
+  cgs value: 4376429786107.3813
+  unit: 4376429786107.3813 erg cm^-2 s^-1
+
+velocity:
+  cgs symbol: cm s^-1
+  cgs value: 2307147.1917162654
+  unit: 2307147.1917162654 cm s^-1
+
+angular momentum:
+  cgs symbol: cm^2 g s^-1
+  cgs value: 4.117854604089762e+52
+  unit: 4.117854604089762e+52 cm^2 g s^-1
+
+kinematic viscosity:
+  cgs symbol: cm^2 s^-1
+  cgs value: 3.4514430727223804e+19
+  unit: 3.4514430727223804e+19 cm^2 s^-1
+
+dynamic viscosity:
+  cgs symbol: P
+  cgs value: 12299707173723.914
+  unit: 12299707173723.914 P
+
+acceleration:
+  cgs symbol: cm s^-2
+  cgs value: 0.35581577059467134
+  unit: 0.35581577059467134 cm s^-2
+
+stress:
+  cgs symbol: g s^-2
+  cgs value: 2.8377234864789533e+19
+  unit: 2.8377234864789533e+19 g s^-2
+
+pressure:
+  cgs symbol: dyn cm^-1
+  cgs value: 2.8377234864789533e+19
+  unit: 2.8377234864789533e+19 dyn cm^-1
+
+power:
+  cgs symbol: erg/s
+  cgs value: 9.7942410697093834e+38
+  unit: 9.7942410697093834e+38 erg/s
+
+potential:
+  cgs symbol: erg/g
+  cgs value: 5322928164244.251
+  unit: 5322928164244.251 erg/g
+
+torque:
+  cgs symbol: erg
+  cgs value: 6.3506897800528594e+45
+  unit: 6.3506897800528594e+45 erg
+
+force:
+  cgs symbol: dyn
+  cgs value: 4.2451739121263161e+32
+  unit: 4.2451739121263161e+32 dyn
+
+mass accretion rate:
+  cgs symbol: g s^-1
+  cgs value: 1.8400100034226123e+26
+  unit: 1.8400100034226123e+26 g s^-1
+

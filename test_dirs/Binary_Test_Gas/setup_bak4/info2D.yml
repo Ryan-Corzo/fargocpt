@@ -1,0 +1,102 @@
+# 2D output variable descriptions
+# version 0.1
+
+Sigma:
+  cgs symbols: g cm^-2
+  code_to_cgs_factor: 5331132.4123079786
+  unit: 5331132.4123079786 g cm^-2
+  Nrad: 389
+  Nazi: 328
+  bigendian: 0
+  on_radial_interface: false
+  on_azimuthal_interface: false
+  filename: Sigma.dat
+
+vrad:
+  cgs symbols: cm s^-1
+  code_to_cgs_factor: 2307147.1917162654
+  unit: 2307147.1917162654 cm s^-1
+  Nrad: 390
+  Nazi: 328
+  bigendian: 0
+  on_radial_interface: true
+  on_azimuthal_interface: false
+  filename: vrad.dat
+
+vazi:
+  cgs symbols: cm s^-1
+  code_to_cgs_factor: 2307147.1917162654
+  unit: 2307147.1917162654 cm s^-1
+  Nrad: 389
+  Nazi: 328
+  bigendian: 0
+  on_radial_interface: false
+  on_azimuthal_interface: true
+  filename: vazi.dat
+
+energy:
+  cgs symbols: erg cm^-2
+  code_to_cgs_factor: 2.8377234864789533e+19
+  unit: 2.8377234864789533e+19 erg cm^-2
+  Nrad: 389
+  Nazi: 328
+  bigendian: 0
+  on_radial_interface: false
+  on_azimuthal_interface: false
+  filename: energy.dat
+
+Qplus:
+  cgs symbols: erg cm^-2 s^-1
+  code_to_cgs_factor: 4376429786107.3813
+  unit: 4376429786107.3813 erg cm^-2 s^-1
+  Nrad: 389
+  Nazi: 328
+  bigendian: 0
+  on_radial_interface: false
+  on_azimuthal_interface: false
+  filename: Qplus.dat
+
+Qminus:
+  cgs symbols: erg cm^-2 s^-1
+  code_to_cgs_factor: 4376429786107.3813
+  unit: 4376429786107.3813 erg cm^-2 s^-1
+  Nrad: 389
+  Nazi: 328
+  bigendian: 0
+  on_radial_interface: false
+  on_azimuthal_interface: false
+  filename: Qminus.dat
+
+viscosity:
+  cgs symbols: cm^2 s^-1
+  code_to_cgs_factor: 3.4514430727223804e+19
+  unit: 3.4514430727223804e+19 cm^2 s^-1
+  Nrad: 389
+  Nazi: 328
+  bigendian: 0
+  on_radial_interface: false
+  on_azimuthal_interface: false
+  filename: viscosity.dat
+
+aspectratio:
+  cgs symbols: 1
+  code_to_cgs_factor: 1
+  unit: 1
+  Nrad: 389
+  Nazi: 328
+  bigendian: 0
+  on_radial_interface: false
+  on_azimuthal_interface: false
+  filename: aspectratio.dat
+
+MassFlow:
+  cgs symbols: g s^-1
+  code_to_cgs_factor: 1.8400100034226123e+26
+  unit: 1.8400100034226123e+26 g s^-1
+  Nrad: 390
+  Nazi: 328
+  bigendian: 0
+  on_radial_interface: true
+  on_azimuthal_interface: false
+  filename: MassFlow.dat
+
